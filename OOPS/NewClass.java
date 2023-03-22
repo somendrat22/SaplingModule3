@@ -2,6 +2,21 @@ public class NewClass {
     {
         // Instance Block 
     }
+
+
+    public class Human{
+        Heart h;
+        Human(){
+            h = new Heart();
+        }
+    }
+
+    
+
+
+    public class Heart{
+
+    }
     public static class Hospital{ // Instance Class
 
         static {
